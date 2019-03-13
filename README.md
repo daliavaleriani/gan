@@ -25,20 +25,19 @@ Una funzione Sigmoid viene applicata all'output con valore reale del Discriminat
 Nel generatore, invece lo strato di output avrà una funzione di attivazione di TanH, che mappa i valori risultanti nell'intervallo (-1, 1), che è lo stesso intervallo in cui le nostre immagini MNIST pre-elaborate sono limitate.
 La LeakyReLU utilizzata è una variante della ReLU, una funzione di attivazione molto usata. La LeakyReLU ha una piccola pendenza per i valori negativi, invece che 0. Questa pendenza è la "negative slope". La Leaky ReLU è utile per risolvere il "dying ReLU problem".
 
-Viene utilizzata BCE, che è ...
+Viene utilizzata la Cross Entropy binaria (BCE), che è un caso particolare della Cross Entropy in cui è possibile classificare solamente due classi.
 Per entrambe le reti sono stati svolti dei test utilizzando come funzione di ottimizzazione sia Adam che SGD per studiare l'impatto che tali funzioni hanno sull'addestramento della rete.
 
 ### Adam
 
-Adam è ...
+L'algoritmo di ottimizzazione Adam è un'estensione della discesa del gradiente stocastico. Può essere usato al posto del classico SGD per aggiornare i pesi di rete iterativamente in base ai dati del training. La discesa del gradiente stocastico mantiene un singolo learning rate (chiamato alfa) per tutti gli aggiornamenti di peso; inoltre la velocità di apprendimento non cambia durante l'addestramento. In Adam viene mantenuto un learning rate per ogni peso della rete e adattato separatamente all'apprendimento.
+
 Nelle prove svolte si è analizzato il comportamento della GAN al variare del LR e del numero di epoche.
 
 #### Epoche = 50; LR = 0.00000000000000001
 
 ### SGD
 
-Cos'è SGD
-Momentum
 Nelle prove svolte si è analizzato il comportamento della GAN al variare del LR e del numero di epoche.
 
 ## Risultati finali
