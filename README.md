@@ -20,7 +20,7 @@ Competendo l'uno contro l'altro, questi due modelli forniranno i migliori dati p
 
 ## Codice
 Il codice riportato in questo repository è scritto con l'utilizzo della libreria pyTorch, ed è stato eseguito tramite l'ausilio di Google Colaboratory; esso comprende:
-- [VanillaGAN.ipynb]() (dataset MNIST);
+- [VanillaGAN.ipynb](https://github.com/daliavaleriani/gan/blob/master/VanillaGAN.ipynb) (dataset MNIST);
 - [DCGAN.ipynb]() (dataset MNIST, fashionMNIST e celebA).
 
 ## Risultati finali
