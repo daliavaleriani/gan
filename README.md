@@ -26,3 +26,4 @@ Il codice riportato in questo repository è scritto con l'utilizzo della libreri
 ## Risultati finali
 Per completezza si riporta il confronto tra i risultati migliori delle due GAN esaminate:
 *immagini*
+Nello studio svolto le DCGAN si sono dimostrate reti più stabili in termini di addestramento e sono in grado di generare campioni di qualità superiore.
