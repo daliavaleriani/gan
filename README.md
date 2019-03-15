@@ -25,5 +25,14 @@ Il codice riportato in questo repository è scritto con l'utilizzo della libreri
 
 ## Risultati finali
 Per completezza si riporta il confronto tra i risultati migliori delle due GAN esaminate:
-*immagini*
+### Vanilla GAN:
+![VGAN](https://github.com/daliavaleriani/gan/blob/master/Immagini/VGAN_Adam_150.png)
+### DCGAN:
+![DCGAN](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_150.png)
 Nello studio svolto le DCGAN si sono dimostrate reti più stabili in termini di addestramento e sono in grado di generare campioni di qualità superiore.
+
+## Risultati aggiuntivi
+Per approfondire lo studio delle funzionalità delle DCGAN, sono state effettuate sperimentazioni su ulteriori dataset:
+### FashionMNIST:
+![fashion](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_fashion.png)
+###CelebA:
