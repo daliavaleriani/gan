@@ -3,7 +3,7 @@
 Il repository contiene il progetto di Machine Learning e Sistemi Intelligenti per Internet svolto da Bianca Camilla e Valeriani Dalia, studentesse di Ingegneria Informatica presso l'Università degli Studi di RomaTre.
 L'obettivo del progetto consiste nell'analisi e nello sviluppo dei cambiamenti dei parametri e degli iper-parametri relativi alle reti neurali che realizzano una Generative Adversarial Network. In particolare, l'attenzione è rivolta all'evoluzione della GAN partendo da un'implementazione semplice, fino ad arrivare ad una struttura più complessa. Infatti, inizialmente è stata analizzata una rete base di tipo Vanilla, per poi far riferimento all'utilizzo di operatori convolutivi tipici di una DCGAN, richiamando la conoscenza di argomenti studiati a lezione.
 
-## GAN
+# GAN
 
 “The coolest idea in deep learning in the last 20 years.” — Yann LeCun on GANs.
 Le GAN (Reti avversarie generative) sono una combinazione di vari modelli di Deep Learning che cercano di competere l'uno contro l'altro.
@@ -18,21 +18,21 @@ La GAN è costituita da due reti neurali che sono in competizione tra di loro, c
 
 Competendo l'uno contro l'altro, questi due modelli forniranno i migliori dati possibili, nuovi e mai visti.
 
-## Codice
+# Codice
 Il codice riportato in questo repository è scritto con l'utilizzo della libreria pyTorch, ed è stato eseguito tramite l'ausilio di Google Colaboratory; esso comprende:
 - [VanillaGAN.ipynb](https://github.com/daliavaleriani/gan/blob/master/VanillaGAN.ipynb) (dataset MNIST);
 - [DCGAN.ipynb](https://github.com/daliavaleriani/gan/blob/master/DCGAN.ipynb) (dataset MNIST, fashionMNIST e celebA).
 
-## Risultati finali
+# Risultati finali
 Per completezza si riporta il confronto tra i risultati migliori delle due GAN esaminate:
 ### Vanilla GAN:
 ![VGAN](https://github.com/daliavaleriani/gan/blob/master/Immagini/VGAN_Adam_150.png)
 ### DCGAN:
-![DCGAN](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_150.png)
+![DCGAN](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_150.png)  
 Nello studio svolto le DCGAN si sono dimostrate reti più stabili in termini di addestramento e sono in grado di generare campioni di qualità superiore.
 
 ## Risultati aggiuntivi
 Per approfondire lo studio delle funzionalità delle DCGAN, sono state effettuate sperimentazioni su ulteriori dataset:
 ### FashionMNIST:
 ![fashion](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_fashion.png)
-###CelebA:
+### CelebA:
