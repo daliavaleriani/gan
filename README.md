@@ -36,3 +36,4 @@ Per approfondire lo studio delle funzionalità delle DCGAN, sono state effettuat
 ## FashionMNIST:
 ![fashion](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_fashion.png)
 ## CelebA:
+![celebA](https://github.com/daliavaleriani/gan/blob/master/Immagini/DCGAN_Adam_celebA.png)
