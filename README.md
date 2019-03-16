@@ -1,7 +1,7 @@
 # Progetto ML/SII
 
 Il repository contiene il progetto di Machine Learning e Sistemi Intelligenti per Internet svolto da Bianca Camilla e Valeriani Dalia, studentesse di Ingegneria Informatica presso l'Università degli Studi di RomaTre.
-L'obettivo del progetto consiste nell'analisi e nello sviluppo dei cambiamenti dei parametri e degli iper-parametri relativi alle reti neurali che realizzano una Generative Adversarial Network. In particolare, l'attenzione è rivolta all'evoluzione della GAN partendo da un'implementazione semplice, fino ad arrivare ad una struttura più complessa. Infatti, inizialmente è stata analizzata una rete base di tipo Vanilla, per poi far riferimento all'utilizzo di operatori convolutivi tipici di una DCGAN, richiamando la conoscenza di argomenti studiati a lezione.
+L'obiettivo del progetto consiste nell'analisi e nello sviluppo dei cambiamenti dei parametri e degli iper-parametri relativi alle reti neurali che realizzano una Generative Adversarial Network. In particolare, l'attenzione è rivolta all'evoluzione della GAN partendo da un'implementazione semplice, fino ad arrivare ad una struttura più complessa. Infatti, inizialmente è stata analizzata una rete base di tipo Vanilla, per poi far riferimento all'utilizzo di operatori convolutivi tipici di una DCGAN, richiamando la conoscenza di argomenti studiati a lezione.
 
 # GAN
 
